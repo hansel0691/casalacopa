@@ -1,0 +1,71 @@
+D:\!!!development\casalacopa.com\casalacopa.com\bin\casalacopa.com.dll.config
+D:\!!!development\casalacopa.com\casalacopa.com\bin\casalacopa.com.dll
+D:\!!!development\casalacopa.com\casalacopa.com\bin\casalacopa.com.pdb
+D:\!!!development\casalacopa.com\casalacopa.com\bin\Antlr3.Runtime.dll
+D:\!!!development\casalacopa.com\casalacopa.com\bin\Microsoft.Web.Infrastructure.dll
+D:\!!!development\casalacopa.com\casalacopa.com\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+D:\!!!development\casalacopa.com\casalacopa.com\bin\Microsoft.Web.Optimization.dll
+D:\!!!development\casalacopa.com\casalacopa.com\bin\Newtonsoft.Json.dll
+D:\!!!development\casalacopa.com\casalacopa.com\bin\System.Net.Http.dll
+D:\!!!development\casalacopa.com\casalacopa.com\bin\System.Net.Http.WebRequest.dll
+D:\!!!development\casalacopa.com\casalacopa.com\bin\System.Web.Helpers.dll
+D:\!!!development\casalacopa.com\casalacopa.com\bin\System.Web.Mvc.dll
+D:\!!!development\casalacopa.com\casalacopa.com\bin\System.Web.Optimization.dll
+D:\!!!development\casalacopa.com\casalacopa.com\bin\System.Web.Razor.dll
+D:\!!!development\casalacopa.com\casalacopa.com\bin\System.Web.WebPages.Deployment.dll
+D:\!!!development\casalacopa.com\casalacopa.com\bin\System.Web.WebPages.dll
+D:\!!!development\casalacopa.com\casalacopa.com\bin\System.Web.WebPages.Razor.dll
+D:\!!!development\casalacopa.com\casalacopa.com\bin\WebActivator.dll
+D:\!!!development\casalacopa.com\casalacopa.com\bin\WebGrease.dll
+D:\!!!development\casalacopa.com\casalacopa.com\bin\Antlr3.Runtime.pdb
+D:\!!!development\casalacopa.com\casalacopa.com\bin\Newtonsoft.Json.xml
+D:\!!!development\casalacopa.com\casalacopa.com\bin\System.Web.Optimization.xml
+D:\!!!development\casalacopa.com\casalacopa.com\bin\System.Net.Http.xml
+D:\!!!development\casalacopa.com\casalacopa.com\bin\System.Net.Http.WebRequest.xml
+D:\!!!development\casalacopa.com\casalacopa.com\bin\System.Web.Helpers.xml
+D:\!!!development\casalacopa.com\casalacopa.com\bin\System.Web.Mvc.xml
+D:\!!!development\casalacopa.com\casalacopa.com\bin\System.Web.Razor.xml
+D:\!!!development\casalacopa.com\casalacopa.com\bin\System.Web.WebPages.xml
+D:\!!!development\casalacopa.com\casalacopa.com\bin\System.Web.WebPages.Deployment.xml
+D:\!!!development\casalacopa.com\casalacopa.com\bin\System.Web.WebPages.Razor.xml
+D:\!!!development\casalacopa.com\casalacopa.com\obj\Release\casalacopa.com.dll
+D:\!!!development\casalacopa.com\casalacopa.com\obj\Release\casalacopa.com.pdb
+D:\!!!development\casalacopa.com (Razor + .Net Framework 4.0)\casalacopa.com\bin\casalacopa.com.dll.config
+D:\!!!development\casalacopa.com (Razor + .Net Framework 4.0)\casalacopa.com\bin\casalacopa.com.dll
+D:\!!!development\casalacopa.com (Razor + .Net Framework 4.0)\casalacopa.com\bin\casalacopa.com.pdb
+D:\!!!development\casalacopa.com (Razor + .Net Framework 4.0)\casalacopa.com\bin\Antlr3.Runtime.dll
+D:\!!!development\casalacopa.com (Razor + .Net Framework 4.0)\casalacopa.com\bin\Microsoft.Web.Infrastructure.dll
+D:\!!!development\casalacopa.com (Razor + .Net Framework 4.0)\casalacopa.com\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+D:\!!!development\casalacopa.com (Razor + .Net Framework 4.0)\casalacopa.com\bin\Microsoft.Web.Optimization.dll
+D:\!!!development\casalacopa.com (Razor + .Net Framework 4.0)\casalacopa.com\bin\Newtonsoft.Json.dll
+D:\!!!development\casalacopa.com (Razor + .Net Framework 4.0)\casalacopa.com\bin\System.Net.Http.dll
+D:\!!!development\casalacopa.com (Razor + .Net Framework 4.0)\casalacopa.com\bin\System.Net.Http.WebRequest.dll
+D:\!!!development\casalacopa.com (Razor + .Net Framework 4.0)\casalacopa.com\bin\System.Web.Helpers.dll
+D:\!!!development\casalacopa.com (Razor + .Net Framework 4.0)\casalacopa.com\bin\System.Web.Mvc.dll
+D:\!!!development\casalacopa.com (Razor + .Net Framework 4.0)\casalacopa.com\bin\System.Web.Optimization.dll
+D:\!!!development\casalacopa.com (Razor + .Net Framework 4.0)\casalacopa.com\bin\System.Web.Razor.dll
+D:\!!!development\casalacopa.com (Razor + .Net Framework 4.0)\casalacopa.com\bin\System.Web.WebPages.Deployment.dll
+D:\!!!development\casalacopa.com (Razor + .Net Framework 4.0)\casalacopa.com\bin\System.Web.WebPages.dll
+D:\!!!development\casalacopa.com (Razor + .Net Framework 4.0)\casalacopa.com\bin\System.Web.WebPages.Razor.dll
+D:\!!!development\casalacopa.com (Razor + .Net Framework 4.0)\casalacopa.com\bin\WebActivator.dll
+D:\!!!development\casalacopa.com (Razor + .Net Framework 4.0)\casalacopa.com\bin\WebGrease.dll
+D:\!!!development\casalacopa.com (Razor + .Net Framework 4.0)\casalacopa.com\bin\Antlr3.Runtime.pdb
+D:\!!!development\casalacopa.com (Razor + .Net Framework 4.0)\casalacopa.com\bin\Newtonsoft.Json.xml
+D:\!!!development\casalacopa.com (Razor + .Net Framework 4.0)\casalacopa.com\bin\System.Web.Optimization.xml
+D:\!!!development\casalacopa.com (Razor + .Net Framework 4.0)\casalacopa.com\bin\System.Net.Http.xml
+D:\!!!development\casalacopa.com (Razor + .Net Framework 4.0)\casalacopa.com\bin\System.Net.Http.WebRequest.xml
+D:\!!!development\casalacopa.com (Razor + .Net Framework 4.0)\casalacopa.com\bin\System.Web.Helpers.xml
+D:\!!!development\casalacopa.com (Razor + .Net Framework 4.0)\casalacopa.com\bin\System.Web.Mvc.xml
+D:\!!!development\casalacopa.com (Razor + .Net Framework 4.0)\casalacopa.com\bin\System.Web.Razor.xml
+D:\!!!development\casalacopa.com (Razor + .Net Framework 4.0)\casalacopa.com\bin\System.Web.WebPages.xml
+D:\!!!development\casalacopa.com (Razor + .Net Framework 4.0)\casalacopa.com\bin\System.Web.WebPages.Deployment.xml
+D:\!!!development\casalacopa.com (Razor + .Net Framework 4.0)\casalacopa.com\bin\System.Web.WebPages.Razor.xml
+D:\!!!development\casalacopa.com (Razor + .Net Framework 4.0)\casalacopa.com\obj\Release\casalacopa.com.csprojResolveAssemblyReference.cache
+D:\!!!development\casalacopa.com (Razor + .Net Framework 4.0)\casalacopa.com\obj\Release\casalacopa.com.dll
+D:\!!!development\casalacopa.com (Razor + .Net Framework 4.0)\casalacopa.com\obj\Release\casalacopa.com.pdb
+D:\!!!development\casalacopa.com (Razor + .Net Framework 4.0)\casalacopa.com\bin\System.Net.Http.Formatting.dll
+D:\!!!development\casalacopa.com (Razor + .Net Framework 4.0)\casalacopa.com\bin\System.Web.Http.dll
+D:\!!!development\casalacopa.com (Razor + .Net Framework 4.0)\casalacopa.com\bin\System.Web.Http.WebHost.dll
+D:\!!!development\casalacopa.com (Razor + .Net Framework 4.0)\casalacopa.com\bin\System.Net.Http.Formatting.xml
+D:\!!!development\casalacopa.com (Razor + .Net Framework 4.0)\casalacopa.com\bin\System.Web.Http.xml
+D:\!!!development\casalacopa.com (Razor + .Net Framework 4.0)\casalacopa.com\bin\System.Web.Http.WebHost.xml

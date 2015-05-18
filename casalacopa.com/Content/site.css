@@ -1,0 +1,273 @@
+@font-face{font-family:'Glyphicons Halflings';src:url(fonts/glyphicons-halflings-regular.eot);src:url(fonts/glyphicons-halflings-regulard41d.eot?#iefix) format('embedded-opentype'),url(fonts/glyphicons-halflings-regular.woff) format('woff'),url(fonts/glyphicons-halflings-regular.ttf) format('truetype'),url(fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular) format('svg')}
+@font-face {
+  font-family: 'metroSysIcons';
+  src: url('fonts/metroSysIcons.woff') format('woff'), url('fonts/metroSysIcons.ttf') format('truetype'), url('fonts/metroSysIcons.svg#metroSysIcons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.glyphicon {
+    font-family: 'Glyphicons Halflings' !important;
+}
+
+    p {
+        color: #4c4c4c;
+    }
+
+    @media (min-width: 992px) {
+	    .container {
+	    width: 900px;
+	    }
+        .modal-dialog{
+            height: 500px;
+            width: 800px;
+        }
+        .modal-content .modal-body .carousel-inner img{
+            height: 490px;
+            margin: auto;
+        }
+    }
+	@media (max-width: 768px) {
+		.navbar ul li{
+			margin-right: 0 !important;
+		}
+        .custom-visibility-lg{
+		    display: none !important;
+		}
+        .col-md-4 {
+            margin-top: 20px;
+        }
+	}
+
+	.navbar {
+	  border-radius: 0px;
+	  margin-bottom: 0;
+	  border: 0;
+	}
+	.icon-bar{
+		background: #734141;
+	}
+
+	.header-frame {
+	  background-color: #FFF;
+	  height: 172px;
+	  width: 230px;
+	  text-align: left;
+	  position: absolute;
+	  /*left: 235px;*/
+	  white-space: nowrap;
+	}
+	.dropable-shadow {
+	  background: transparent;
+	  height: 150px;
+	  width: 230px;
+	  float: left;
+	  -webkit-border-radius: 360px 360px 0 0;
+	  border-radius: 360px 360px 0 0;
+	  /* margin-top: 5px; */
+	  margin-bottom: -250px;
+	  margin-left: 0;
+	  -webkit-box-shadow: 0px 25px 30px 1px rgba(0,0,0,.7);
+	  box-shadow: 0px 25px 30px 1px rgba(0,0,0,.7);
+	}
+
+	#top-navegation{
+		float: right;
+	}
+
+	#top-navegation ul{
+		list-style-type: none;
+	    display: inline-block;
+	    vertical-align: top;
+	    margin: 0;
+	    padding: 0;
+	}
+	
+	#top-navegation ul li{
+		display: inline-block;
+		vertical-align: top;
+	}
+
+	#top-navegation ul li a{
+		text-transform: uppercase;
+		font-style: normal;
+		font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+		font-size: 10px;
+		text-decoration: none;
+		color: #FFF;
+		display: block;
+		background-color: #2d0e0e;
+		padding: 2px 15px 2px 7px;
+	}
+
+	/*header*/
+
+	.main-header{
+		  margin-top: 80px;
+		  margin-bottom: 0;
+		  padding: 0;
+		  font-family: "Times New Roman", "Big Caslon", "Book Antiqua", "Palatino Linotype", Georgia, serif;
+		  font-weight: normal;
+		  color: #734141;
+		  font-size: 40px;
+		  text-align: right;
+	}
+	
+	.sub-header{
+		  margin-top: 0;
+		  margin-bottom: 0;
+		  padding: 0;
+		  color: #734141;
+		  font-size: 32px;
+		  font-family: "Times New Roman", "Big Caslon", "Book Antiqua", "Palatino Linotype", Georgia, serif;
+		  font-weight: normal;
+		  text-align: right;
+	}
+
+	/*navigation menu*/
+	
+	.main-nav ul{
+		margin: 0;
+	    margin-bottom: 0;
+	    padding: 0;
+	    background: transparent;
+	    z-index: 499;
+	    text-align: left;
+	    display: block;
+	}
+
+	.main-nav ul li{
+		/*display: inline-block;*/
+		padding: 0;
+	    font-size: 100%;
+	    vertical-align: baseline;
+	    height: 32px;
+	    margin-right: 3px;
+	}
+	.main-nav > .nav > li > a:hover{
+	  background: rgba(79, 34, 34, 0.6) !important;
+	}
+    .main-nav > .nav > li.active > a:hover{
+	  background: white !important;
+	}
+	nav ul li.active a,
+	.nav > li >a:focus  {
+	  color: #2D0E0E;
+	  background: #FFF;
+	}
+
+	.main-nav ul li a{
+		  font-size: 13px;
+		  color: #FFF;
+		  display: block;
+		  line-height: 1;
+		  padding: 9.5px 25px 9.5px 10px;
+		  text-decoration: none;
+		  background: #4f2222;
+		  font-weight: 500;
+		  font-family: Tahoma, Verdana, Segoe, sans-serif;
+		  -webkit-font-smoothing: antialiased;
+	}
+	
+	.glyph-square:before{
+	    margin-right: 15px;
+	    font-family: 'Glyphicons Halflings';
+	    font-size: 10px;
+	    font-style: normal;
+	    color:#ff8420;
+	    vertical-align: initial;
+	    -webkit-font-smoothing: antialiased;
+	}
+
+	.glyph-square:before{
+	    content: "\e074";
+	}
+
+	/*main body*/
+
+	.main-body{
+		background-color: white;
+	}
+
+	/*orange-line*/
+
+	.orange-line{
+	    background-color: #ff8420;
+	    height: 2px;
+	}
+	.main-body .orange-line{
+		margin-bottom: 2px;
+	}
+
+	/*footer*/
+
+	footer{
+		background-color: #2d0e0e;
+		min-height: 79px;
+	}
+	
+	/*book btn*/
+
+	#bookbtn{
+		height: 50px;
+		width: 192px;
+		margin: auto;
+		display: block;
+		text-align: -webkit-center;
+		text-align: center;
+		border: solid 1px #d76724;
+		-webkit-border-radius: 3px;
+		        border-radius: 3px;
+		background-color: #e77116;
+		background-image: -webkit-linear-gradient(bottom, #dd5a11, #ee8720);
+		background-image: -moz-linear-gradient(bottom, #dd5a11, #ee8720);
+		background-image: -o-linear-gradient(bottom, #dd5a11, #ee8720);
+		background-image: linear-gradient(bottom, #dd5a11, #ee8720);
+		-webkit-box-shadow: 0 0 7px 2px rgba(0,0,0,.40);
+		        box-shadow: 0 0 7px 2px rgba(0,0,0,.40);
+	}
+
+	#bookbtn a{
+		color: #FFF;
+		display: block;
+		text-decoration: none;
+		font-family: Candara, Calibri, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+		font-style: normal;
+		outline-width: 2px;
+		font-size: 22px;
+		padding: 8px 0;
+		letter-spacing: 2px;
+	}
+
+	#bookbtn a, .main-nav a, #top-menu a{
+		text-transform: uppercase;
+	}
+
+    .thumbnail {
+        -webkit-box-shadow: 0 0 7px 2px rgba(0,0,0,.3); 
+        box-shadow: 0 0 7px 2px rgba(0,0,0,.3);
+        border-radius: 0;
+    }
+
+    .external-nav a img{
+        width: 45px;
+        height: 45px;
+    }
+
+    .img-container {
+        width: 100%;
+        height: 282px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+    }
+
+    .img-bedroom {
+        background-image: url("/Images/gallery/bedroom_11.jpg");
+    }
+    .img-about {
+        background-image: url("/Images/gallery/hall_5.jpg");
+    }
+    .img-todo {
+        background-image: url("/Images/gallery/outside_1.jpg");
+    }

@@ -1,0 +1,170 @@
+﻿<!-- Form Modal -->
+<div class="modal fade" id="bookModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" data-ng-controller="bookCtr">
+    <div class="modal-dialog">
+        <div class="cool-modal">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+            <h2>Book at La Copa</h2>
+            <div class="description">
+                Please enter the data correctly and a verification email will be sent to you.
+            </div>
+            <form data-ng-submit="submitBook()">
+                <fieldset style="border: 1px solid transparent;">
+                    <div id="section1">
+                        <input type="text" placeholder="Name" required="" data-ng-model="book.name">
+                        <input type="text" placeholder="Last Name" required="" data-ng-model="book.lastName">
+                        <input type="email" placeholder="Email" required="" data-ng-model="book.email">
+                    </div>
+                    <div id="section2">
+                        <input type="text" id="datepickerIn" placeholder="Check In" required="" data-date-format="mm/dd/yy" >
+                        <input type="text" id="datepickerOut" placeholder="Check Out" required="" data-date-format="mm/dd/yy" >
+                        <select data-ng-model="book.country" data-ng-class="{placeholder: !book.country}">
+                            <option value="" disabled="" hidden="">Country</option>
+                            <option value="{{country}}" data-ng-repeat="country in countries">{{country}}</option>
+                        </select>
+                    </div>
+                    <div id="section3" style="margin-top: 5px;">
+                        <input type="number" placeholder="Rooms" min="1" max="3" data-ng-model="book.rooms">
+                        <input type="number" placeholder="Adults" min="1" max="{{book.rooms * 2}}" data-ng-model="book.adults">
+                        <input type="number" placeholder="Children" min="0" max="{{book.rooms }}" data-ng-model="book.children">
+                        <textarea placeholder="Related Notes" data-ng-model="book.notes"></textarea>
+                    </div>
+
+                    <button type="submit" >Send Request</button>
+                </fieldset>
+            </form>
+        </div>
+        <style>
+            .placeholder {
+                color: #aaa !important;
+            }
+
+             .cool-modal button.close {
+                margin-top: -15px;
+                margin-right: -25px;
+            }
+
+            .cool-modal {
+                text-align: center;
+                background-color: #fff;
+                text-align: center;
+                margin: 50px auto 20px !important;
+                display: block;
+                -ms-border-radius: 5px;
+                border-radius: 5px;
+                -webkit-box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.25);
+                -ms-box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.25);
+                box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.25);
+                min-height: 300px;
+                padding: 25px 40px;
+                position: relative;
+                width: 420px;
+            }
+
+            .cool-modal h2 {
+                font-size: 29px;
+                font-weight: 200;
+                margin-top: 5px;
+                line-height: 1em;
+                font-family: 'Segoe UI Light', 'Open Sans Light', Verdana, Arial, Helvetica, sans-serif;
+                padding: 0;
+                color: #00A8C6 !important;
+            }
+
+            .cool-modal .description {
+                font-size: 15px;
+                color: #424F59 !important;
+                font-family: 'Segoe UI', 'Open Sans', Verdana, Arial, Helvetica, sans-serif;
+                font-weight: normal;
+                font-style: normal;
+            }
+
+            .cool-modal form {
+                margin: 10px 0 0;
+                border-collapse: collapse;
+            }
+
+            .cool-modal input[type="number"],
+            .cool-modal textarea,
+            .cool-modal input[type="text"],
+            .cool-modal input[type="email"],
+            .cool-modal select {
+                color: #555;
+                font-size: 14px;
+                outline: 0;
+                border: 1px #d9d9d9 solid;
+                height: 36px;
+                position: relative;
+                padding: 5px;
+                z-index: 1;
+                -webkit-appearance: none;
+                line-height: normal;
+                margin: 0;
+                vertical-align: middle;
+            }
+
+            .cool-modal input[type="number"] {
+                width: 32%;
+            }
+
+            .cool-modal textarea {
+                margin-top: 5px;
+                height: 100px;
+                resize: none;
+            }
+
+            .cool-modal textarea,
+            .cool-modal input[type="text"],
+            .cool-modal input[type="email"],
+            .cool-modal select {
+                width: 100%;
+            }
+
+            .cool-modal button[type="submit"] {
+                margin-top: 20px;
+                width: 340px;
+                height: 45px;
+                color: #fff;
+                background-color: #0095DD;
+                font-size: 22px;
+                padding: 15px 0px;
+                -webkit-transition-duration: 150ms;
+                -moz-transition-duration: 150ms;
+                -ms-transition-duration: 150ms;
+                -o-transition-duration: 150ms;
+                transition-duration: 150ms;
+                -webkit-transition-property: background-color;
+                -moz-transition-property: background-color;
+                -ms-transition-property: background-color;
+                -o-transition-property: background-color;
+                transition-property: background-color;
+                font-weight: bold;
+                letter-spacing: 1px;
+            }
+
+            .cool-modal form button {
+                padding: 4px 12px;
+                text-align: center;
+                vertical-align: middle !important;
+                background-color: #d9d9d9;
+                border: 1px transparent solid;
+                color: #222222;
+                border-radius: 0;
+                cursor: pointer;
+                display: inline-block;
+                outline: none;
+                font-family: 'Segoe UI Light', 'Open Sans Light', Verdana, Arial, Helvetica, sans-serif;
+                font-size: 14px;
+                line-height: 16px;
+                margin: auto;
+            }
+
+            div.datepicker.dropdown-menu {
+                z-index: 100000;
+            }
+        </style>
+    </div>
+</div>
+<script>
+    $('#datepickerIn').datepicker({ format: "mm/dd/yyyy", orientation: "bottom left", autoclose: true });
+    $('#datepickerOut').datepicker({ format: "mm/dd/yyyy", orientation: "bottom left", autoclose: true });
+</script>

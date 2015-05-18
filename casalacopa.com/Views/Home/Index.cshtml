@@ -1,0 +1,122 @@
+﻿@using System.Web.Optimization
+<!DOCTYPE html>
+<html lang="en" data-ng-app="main" data-global="">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="The rent House, La Copa in The City of Havana, shares it's bedrooms with pleasure to the world across this web site. Here you can book a piece of La Havana, Cuba,
+            and share it with your friends and family spending your best holydays at the lowest prices ever.">
+    <meta name="author" content="Hansel García Romero">
+    <meta name="keywords" content="rent, house, book, Havana, Cuba, holydays, bedrooms, La Copa">
+    <title id="title">{{title}} - La Copa</title>
+
+    <link href="~/Images/favicon.png" rel="shortcut icon" type="image/x-icon" />
+
+    <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/vendor")
+
+
+    <!--[if lt IE 9]>
+        <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+<body style="background-color:#bbbab8; min-width: 530px;">
+    <div style="background-color: white;">
+        <div class="container">
+            <nav id="top-navegation">
+                <ul>
+                    <li><a href="#/home">main page</a></li>
+                    <li><a href="#/todo">things to do</a></li>
+                    <li><a data-toggle="modal" data-target="#galleryModal" style="cursor: pointer">gallery</a></li>
+                </ul>
+                <div class="orange-line"><br /></div>
+            </nav>
+            <figure class="header-frame custom-visibility-lg">
+                <div class="dropable-shadow"></div>
+                <img src="~/Images/la copa.png" alt="Top Logo of La Copa house rent.">
+            </figure>
+            <h1 class="main-header">Come to Havana, visit Cuba</h1>
+        </div>
+    </div>
+    <div style="background-color: #2D0E0E;">
+        <div class="container">
+            <h2 class="sub-header">...the best option in Miramar!</h2>
+            <nav class="row navbar" style="min-height: 0;margin-top: 35px;">
+                <div>
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse main-nav" id="bs-example-navbar-collapse-1" style="padding: 0;">
+                        <ul class="nav navbar-nav">
+                            <li data-ng-class="{active : active == 0}"><a class="glyph-square" href="#/home">The House</a></li>
+                            <li data-ng-class="{active : active == 1}"><a class="glyph-square" href="#/location">Location</a></li>
+                            <li data-ng-class="{active : active == 2}"><a class="glyph-square" href="#/rooms">Rooms</a></li>
+                            <li data-ng-class="{active : active == 3}"><a class="glyph-square" href="#/terrace">Terrace</a></li>
+                            <li data-ng-class="{active : active == 4}"><a class="glyph-square" href="#/about">About</a></li>
+                        </ul>
+                    </div><!-- /.navbar-collapse -->
+                </div><!-- /.container-fluid -->
+            </nav>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row main-body" style="min-height: 32px;">
+            <div class="row" style="padding: 20px 20px 20px;">
+                <div class="col-md-8" style="text-align:center;" data-ng-view=""></div>
+                <div class="col-md-4" style="text-align:center;">
+                    <div class="row" style="margin-bottom: 20px;">
+                        <div id="bookbtn">
+                            <a href="" data-toggle="modal" data-target="#bookModal">book now</a>
+                        </div>
+                    </div>
+                    <nav class="row" style="margin-bottom: 5px;">
+                        <ul style="list-style: none; display: block; padding: 0;">
+                            <li class="external-nav" style="display: inline-block;"><a href="https://www.facebook.com/pages/BB-Casa-La-Copa/560502237398346?ref=notif&notif_t=fbpage_fan_invite"><img src="~/Images/navigation/facebook.png" alt="facebook"></a></li>
+                            <li class="external-nav" style="display: inline-block; margin-left: 5px;"><a href="http://twiter.com/"><img src="~/Images/navigation/twiter.png" alt="twitter"></a></li>
+                            <li class="external-nav" style="display: inline-block; margin-left: 5px;"><a href="mailto:adrylopfer@yahoo.es"><img src="~/Images/navigation/mail.png" alt="gmail"></a></li>
+                            <li class="external-nav" style="display: inline-block; margin-left: 5px;"><a href="http://youtube.com/"><img src="~/Images/navigation/you_tyube.png" alt="youTube"></a></li>
+                        </ul>
+                    </nav>
+                    <div class="row custom-visibility-lg" style="margin-bottom: 20px;">
+                        <div id="TA_cdswritereviewlg303" class="TA_cdswritereviewlg">
+                            <ul id="YengXyvYEvw3" class="TA_links 1HXWZJh7" style="margin: 0 auto 30px;">
+                                <li id="XextikpJbBOh" class="kwulz49J">
+                                    <a target="_blank" href="http://www.tripadvisor.com/"><img src="http://www.tripadvisor.com/img/cdsi/img2/branding/medium-logo-12097-2.png" alt="TripAdvisor" /></a>
+                                </li>
+                            </ul>
+                        </div>
+                        <style>
+                            #CDSWIDWRL {
+                                margin: auto;
+                            }
+                        </style>
+                    </div>
+                </div>
+            </div>
+            <div class="orange-line"></div>
+            <footer></footer>
+        </div>
+    </div>
+    
+    <div data-ng-include="'partialroute/gallery'"></div>
+    <div data-ng-include="'partialroute/book'"></div>
+    
+    <script src="http://www.jscache.com/wejs?wtype=cdswritereviewlg&amp;uniq=303&amp;locationId=7917372&amp;lang=en_US&amp;border=true&amp;display_version=2"></script>
+
+    @Scripts.Render("~/bundles/angular")
+    @Scripts.Render("~/bundles/controllers")
+    @Scripts.Render("~/bundles/directives_services")
+    @Scripts.Render("~/bundles/app")
+</body>
+</html>
