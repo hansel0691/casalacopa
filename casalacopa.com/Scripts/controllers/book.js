@@ -11,11 +11,11 @@
                 $scope.book.checkOut = (new Date(dateStr)).getTime();
                 var dateNow = (new Date()).getTime();
 
-                if (dateNow > $scope.checkIn) {
+                if (dateNow > $scope.book.checkIn) {
                     alert("Dates error");
                     return;
                 }
-                if ($scope.checkIn >= $scope.checkOut) {
+                if ($scope.book.checkIn >= $scope.book.checkOut) {
                     alert("Dates error");
                     return;
                 }

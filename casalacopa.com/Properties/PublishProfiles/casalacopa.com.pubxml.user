@@ -13,7 +13,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>04/09/2015 21:53:01</publishTime>
     </File>
     <File Include="bin/casalacopa.com.dll">
-      <publishTime>05/11/2015 18:10:09</publishTime>
+      <publishTime>05/19/2015 19:50:35</publishTime>
     </File>
     <File Include="bin/Microsoft.Web.Infrastructure.dll">
       <publishTime>04/09/2015 21:47:17</publishTime>
@@ -133,7 +133,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>04/09/2015 21:53:32</publishTime>
     </File>
     <File Include="Content/site.css">
-      <publishTime>05/11/2015 18:09:59</publishTime>
+      <publishTime>05/11/2015 18:14:31</publishTime>
     </File>
     <File Include="Global.asax">
       <publishTime>04/09/2015 21:47:13</publishTime>
@@ -280,7 +280,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>05/10/2015 21:59:27</publishTime>
     </File>
     <File Include="Scripts/controllers/book.js">
-      <publishTime>05/11/2015 12:42:18</publishTime>
+      <publishTime>05/19/2015 16:30:58</publishTime>
     </File>
     <File Include="Scripts/controllers/global.js">
       <publishTime>04/16/2015 17:36:36</publishTime>
@@ -289,7 +289,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>05/10/2015 21:59:02</publishTime>
     </File>
     <File Include="Scripts/directives/directives.js">
-      <publishTime>04/23/2015 21:28:19</publishTime>
+      <publishTime>05/11/2015 18:48:05</publishTime>
     </File>
     <File Include="Scripts/vendor/angular-route.js">
       <publishTime>04/09/2015 21:53:55</publishTime>
@@ -307,7 +307,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>04/09/2015 21:53:55</publishTime>
     </File>
     <File Include="Views/Home/Index.cshtml">
-      <publishTime>05/11/2015 13:40:58</publishTime>
+      <publishTime>05/11/2015 18:16:32</publishTime>
     </File>
     <File Include="Views/PartialRoute/About.cshtml">
       <publishTime>04/10/2015 18:58:48</publishTime>

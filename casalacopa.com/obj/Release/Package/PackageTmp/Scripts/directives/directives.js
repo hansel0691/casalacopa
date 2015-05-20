@@ -29,7 +29,7 @@
                             break;
                         case 'about':
                             scope.active = 4;
-                            scope.title = 'About Us';
+                            scope.title = 'About';
                             break;
                         case 'todo':
                             scope.active = -1;
